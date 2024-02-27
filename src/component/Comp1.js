@@ -9,7 +9,7 @@ import Img1 from '../Images/Img1.png'
 
 const Comp1 = ({ index, item }) => {
     return (
-        <div className='xl:w-[1100px] my-5'>
+        <div className='xl:w-[1100px] my-8'>
             <div className='flex flex-col'>
 
                 {
