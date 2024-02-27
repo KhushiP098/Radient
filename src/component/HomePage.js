@@ -21,7 +21,7 @@ function HomePage() {
           {/* line */}
           <div className='h-[0.5px] border-t-2 xl:w-[1100px] w-[70vw]'></div>
 
-          <div className='flex gap-4  items-center justify-between py-2 text-black/[0.55] xl:w-[1100px] w-[70vw]'>
+          <div className='flex gap-4 sm:text-[16px] text-[10px] items-center justify-between py-2 text-black/[0.55] xl:w-[1100px] w-[70vw]'>
 
             <div className='flex gap-4 items-center'>
               <div className='flex gap-2  items-center'>
@@ -82,7 +82,7 @@ function HomePage() {
             <Comp2/>
            </div>
 
-           <div className='flex items-center justify-around my-16'>
+           <div className='flex items-center gap-10 justify-around my-16'>
             <div ><p className='text-[30px] text-black/[0.65] font-medium'>Sign Up and get exclusive <br/>special deals</p></div>
             <div className='bg-blue-500 rounded-r-lg'><p className='text-[14px] font-semibold text-white py-4 px-6'>Sign Up </p></div>
            </div>
