@@ -45,7 +45,7 @@ function HomePage() {
           {/* line */}
           <div className='h-[0.5px] border-t-2 xl:w-[1100px] w-[70vw]'></div>
              
-          <div className='flex sm:flex-row flex-col gap-2 font-serif items-center text-[16px] text-black/[0.55] mt-6 '>
+          <div className='flex flex-row flex-wrap gap-2 font-serif items-center text-[16px] text-black/[0.55] mt-6 '>
            <p className='lg:mx-6 mx-2'>Tools</p>
            <p className='lg:mx-6 mx-2'>AWS Builder</p>
            <p className='lg:mx-6 mx-2'>Start Build</p>
@@ -55,7 +55,7 @@ function HomePage() {
           
           </div>
 
-          <div className='flex sm:flex-row flex-col gap-2 font-serif items-center text-[15px] text-black/[0.55] mt-4 '>
+          <div className='flex flex-row flex-wrap gap-2 font-serif items-center text-[15px] text-black/[0.55] mt-4 '>
            <p className='mx-2'>Home</p>
            <GoChevronRight />
            <p className='mx-2'>Hoisting for all</p>

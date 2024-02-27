@@ -63,7 +63,7 @@ const Comp1 = ({ index, item }) => {
 
 
                     {/* button & rating */}
-                    <div className='w-[250px] lg:h-[250px] flex flex-col items-center justify-between  '>
+                    <div className='w-[250px] lg:h-[250px] flex flex-row lg:flex-col items-center justify-between  '>
 
                         <div className='flex flex-col items-center'>
                             <p className='text-[35px] text-blue-900'>{item.rating}</p>
